@@ -11,10 +11,10 @@ and provide recipe practics for training !
 Romulus2600 have updated related recipe update! can fork it and try it !
 
 ##  Romulus2600 have two different repository 
-##  1.  https://github.com/CodingCoffee-01/openbmc_research   is fixed on 5.15.xx for openbmc and aspeed sdk 
-##  2.  https://github.com/CodingCoffee-01/openbmc_research_22.git  is forked from openbmc main truck , will keep the trend with openbmc !
+####  1.  https://github.com/CodingCoffee-01/openbmc_research   is fixed on 5.15.xx for openbmc and aspeed sdk 
+####  2.  https://github.com/CodingCoffee-01/openbmc_research_22.git  is forked from openbmc main truck , will keep the trend with openbmc !
 
-##   second repository leave sensors and machine dependent recipes for traning practics !  please reference romulus2600.md and romulus2600_sensor.md
+####   second repository leave sensors and machine dependent recipes for traning practics !  please reference romulus2600.md and romulus2600_sensor.md
 
 ##  the status of build image test is like the following table
 
