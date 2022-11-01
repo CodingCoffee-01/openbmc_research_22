@@ -30,7 +30,7 @@ if have interest to cowork about training courses and bmc porting projects , can
 
 The roadmap of romulus2600 is developing , if have any suggestion , please also mail to codingcoffee.01@gmail.com or leave it as issues ! Tks a lot!
 
-# CodingCoffee
+## CodingCoffee
 ### ----------------------------------------------------------------------------
 This is fork from OpenBMC , Major target is for OpenBMC Training Courses !
 
@@ -58,6 +58,7 @@ Romulus2600 reference binary release:
 
 https://gitlab.com/CodingCoffee-01/openbmc_research_release.git
 
+###----------------------------------------------------------------------
 
 # OpenBMC
 
