@@ -1,3 +1,64 @@
+# Romulus2600 update status
+## Background
+OpenBMC major repository have been updated to Kernel 6.0.x .
+
+ASpeed SDK have updated to SDK v8.1 , and have updated Kernel to 5.15.xx
+
+Romulus 2600 try to sync openbmc major project trend and aspeed sdk in the same page,
+
+and provide recipe practics for training ! 
+
+Romulus2600 have updated related recipe update! can fork it and try it !
+
+##  Romulus2600 have two different repository 
+##  1.  https://github.com/CodingCoffee-01/openbmc_research   is fixed on 5.15.xx for openbmc and aspeed sdk 
+##  2.  https://github.com/CodingCoffee-01/openbmc_research_22.git  is forked from openbmc main truck , will keep the trend with openbmc !
+
+##   second repository leave sensors and machine dependent recipes for traning practics !  please reference romulus2600.md and romulus2600_sensor.md
+
+# the status of build image test is like the following table
+
+### -----------------------------------------------------------------------------------------------------
+
+op515 + op_uboot ==> qemu test OK
+
+ast515 + op_uboot ==> qemu test OK
+
+ast515 + ast_uboot ==> qemu fail(uboot fail)
+
+if have interest to cowork about training courses and bmc porting projects , can mail codingcoffee.01@gmail.com
+
+The roadmap of romulus2600 is developing , if have any suggestion , please also mail to codingcoffee.01@gmail.com or leave it as issues ! Tks a lot!
+
+# CodingCoffee
+### ------------------------------------------------------------------------------------------------------
+This is fork from OpenBMC , Major target is for OpenBMC Training Courses !
+
+We set Romulus AST2600 (Romulus porting to AST2600) is major projects !
+
+Also use OpenBMC Raspberry Pi as 2 nd project !
+
+have interest on Training courses , please visit
+
+https://www.steamcourses.org/blog/239611/openbmc_series_courses1
+
+https://www.steamcourses.org/blog/239612/openbmc_series_courses2
+
+https://www.steamcourses.org/blog/239613/openbmc_series_courses1-1
+
+or mail to sales@astar-tek.com
+
+want to build romulus2600
+
+Please type :
+
+. setup romulus2600 build
+
+Romulus2600 reference binary release:
+
+https://gitlab.com/CodingCoffee-01/openbmc_research_release.git
+
+
 # OpenBMC
 
 [![Build Status](https://openpower.xyz/buildStatus/icon?job=openbmc-build)](https://openpower.xyz/job/openbmc-build/)
