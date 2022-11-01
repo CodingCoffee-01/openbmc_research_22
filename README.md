@@ -1,6 +1,6 @@
 # Romulus2600 update status
 ## Background
-OpenBMC major repository have been updated to Kernel 6.0.x .
+OpenBMC major repository have been updated to Kernel 6.x.x .
 
 ASpeed SDK have updated to SDK v8.x , and have updated Kernel to 5.15.xx
 
