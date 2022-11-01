@@ -16,9 +16,9 @@ Romulus2600 have updated related recipe update! can fork it and try it !
 
 ##   second repository leave sensors and machine dependent recipes for traning practics !  please reference romulus2600.md and romulus2600_sensor.md
 
-# the status of build image test is like the following table
+##  the status of build image test is like the following table
 
-### -----------------------------------------------------------------------------------------------------
+### -----------------------------------------------------------------------------
 
 op515 + op_uboot ==> qemu test OK
 
@@ -31,7 +31,7 @@ if have interest to cowork about training courses and bmc porting projects , can
 The roadmap of romulus2600 is developing , if have any suggestion , please also mail to codingcoffee.01@gmail.com or leave it as issues ! Tks a lot!
 
 # CodingCoffee
-### ------------------------------------------------------------------------------------------------------
+### ----------------------------------------------------------------------------
 This is fork from OpenBMC , Major target is for OpenBMC Training Courses !
 
 We set Romulus AST2600 (Romulus porting to AST2600) is major projects !
