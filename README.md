@@ -2,7 +2,7 @@
 ## Background
 OpenBMC major repository have been updated to Kernel 6.0.x .
 
-ASpeed SDK have updated to SDK v8.1 , and have updated Kernel to 5.15.xx
+ASpeed SDK have updated to SDK v8.x , and have updated Kernel to 5.15.xx
 
 Romulus 2600 try to sync openbmc major project trend and aspeed sdk in the same page,
 
