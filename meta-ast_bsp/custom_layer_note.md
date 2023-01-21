@@ -1,9 +1,10 @@
 # custom layer note
 
-	old environment:
+## old environment:
+
 		source oe-init-build-env 
 
-	new environment:
+## new environment:
 
 		. setup qemuarm build 
 
@@ -13,7 +14,7 @@
 
 		runqemu qemuarm nographic
 
-	## use bitbake create layer 
+## use bitbake create layer 
 
 		bitbake-layers create-layer ../meta-ast_bsp
 
