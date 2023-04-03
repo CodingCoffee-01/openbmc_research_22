@@ -10,4 +10,5 @@ python do_display_banner() {
     bb.plain("***********************************************");
 }
 
-addtask display_banner before do_build
+addtask do_debug_info before do_fetch
+addtask display_banner before do_debug_info
