@@ -77,3 +77,4 @@ S = "${WORKDIR}/git"
 inherit pkgconfig meson systemd
 
 EXTRA_OEMESON:append = " -Dtests=disabled"
+addtask do_op_debug_info before do_fetch

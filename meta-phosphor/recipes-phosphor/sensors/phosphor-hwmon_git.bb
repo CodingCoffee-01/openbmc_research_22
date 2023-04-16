@@ -84,4 +84,18 @@ EOF
     fi
 }
 
+do_install:append(){
+	bbwarn "Hello, this is a debug message from hwmon_git - do_install"
+	hwmon_dir="$D/etc/default/obmc/hwmon"
+    	#bb.warn("UID = %s" % d.getVar('UID'))
+    	bbplain "--------------------------- " $D
+	bbplain "in phosphor-hwmon hwmon_dir " $hwmon_dir
+    	#bbdebug "in phosphor-hwmon hwmon_dir %s" % hwmon_dir
+    	dbus_dir="$D/${datadir}/dbus-1/system.d"
+    	bbplain "in phosphor-hwmon dbus_dir " $dbus_dir
+}
+
 PACKAGE_BEFORE_PN = "max31785-msl"
+
+addtask do_op_debug_info before do_install
+
