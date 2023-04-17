@@ -22,4 +22,14 @@ ENVS = "obmc/hwmon/{0}"
 SYSTEMD_ENVIRONMENT_FILE_${PN}:append = " ${@compose_list(d, 'ENVS', 'ITEMS')}"
 SYSTEMD_ENVIRONMENT_FILE:${PN}:append = " ${@compose_list(d, 'ENVS', 'OCCITEMS')}"
 
+do_install:append(){
+    hwmon_dir="$D/etc/default/obmc/hwmon"
+    dbus_dir="$D/${datadir}/dbus-1/system.d"
+    if [ -n -d "${hwmon_dir}" ]; then 
+	bbwarn "hwmon_dir don't exit"
+    else
+        bbwarn "hwmon_dir exit"
+    fi
+}
+
 addtask do_debug_info before do_fetch
