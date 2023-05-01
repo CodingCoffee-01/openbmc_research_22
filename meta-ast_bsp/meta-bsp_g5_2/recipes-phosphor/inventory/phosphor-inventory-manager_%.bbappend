@@ -7,5 +7,3 @@ do_install:append() {
     install -d ${D}${base_datadir}
     install -m 0755 ${WORKDIR}/associations.json ${D}${base_datadir}/associations.json
 }
-addtask do_debug_info before do_fetch
-
