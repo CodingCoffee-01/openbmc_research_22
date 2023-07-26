@@ -1,2 +1,2 @@
-RDEPENDS:${PN}:append:romulus = " avsbus-control"
-RDEPENDS:${PN}:append:romulus = " vrm-control"
+RDEPENDS:${PN}:append = " avsbus-control"
+RDEPENDS:${PN}:append = " vrm-control"

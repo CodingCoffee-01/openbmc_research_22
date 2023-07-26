@@ -1,1 +1,1 @@
-FILESEXTRAPATHS:prepend:romulus := "${THISDIR}/${BPN}:"
+FILESEXTRAPATHS:prepend:= "${THISDIR}/${BPN}:"
