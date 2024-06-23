@@ -7,8 +7,8 @@
 
 build and deploy uboot, kernel , whole image 
 
-		bitbake -f  u-boot-aspeed-sdk -c compile && bitbake -f  linux-aspeed -c compile && bitbake -c deploy -f u-boot-aspeed-sdk && bitbake -c deploy -f linux-aspeed && bitbake obmc-phosphor-image 
+	bitbake -f  u-boot-aspeed-sdk -c compile && bitbake -f  linux-aspeed -c compile && bitbake -c deploy -f u-boot-aspeed-sdk && bitbake -c deploy -f linux-aspeed && bitbake obmc-phosphor-image 
 
 ### how to test  OpenBMC image 
 
-		./qemu-system-arm -m 256 -M romulus-bmc -nographic -drive file=./image-bmc_romulus,format=raw,if=mtd -net nic -net user,hostfwd=:127.0.0.1:2222-:22,hostfwd=:127.0.0.1:2443-:443,hostfwd=udp:127.0.0.1:2623-:623,hostname=qemu
+	./qemu-system-arm -m 256 -M romulus-bmc -nographic -drive file=./image-bmc_romulus,format=raw,if=mtd -net nic -net user,hostfwd=:127.0.0.1:2222-:22,hostfwd=:127.0.0.1:2443-:443,hostfwd=udp:127.0.0.1:2623-:623,hostname=qemu
